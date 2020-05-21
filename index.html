@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho Prático - Bootcamp</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Color RGB Picker</h1>
+    <div class="container">
+        <div class="content">
+            <p>(R) Vermelho:</p>
+            <input value="0" type="range" id="red" name="r" min="0" max="255">
+            <input type="text" id="result-r" name="red" disabled>
+        </div>
+        <div class="content">
+            <p>(G) Verde:</p>
+            <input value="0" type="range" id="green" name="g" min="0" max="255">
+            <input type="text" id="result-g" name="green" disabled>
+        </div>
+        <div class="content">
+            <p>(B) Azul:</p>
+            <input value="0" type="range" id="blue" name="b" min="0" max="255">
+            <input type="text" id="result-b" name="blue" disabled>
+        </div>
+        <div class="box-color"></div>
+        <span></span>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
